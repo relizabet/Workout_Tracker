@@ -24,8 +24,8 @@ mongoose.connect(process.env.MONGODB_URI || "", {
 });
 
 // routes
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+app.use("/api", apiRoutes);
+app.use("", htmlRoutes);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
