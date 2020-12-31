@@ -16,7 +16,7 @@ The user should be able to:
 
 ## Description
 
-An workout tracker.
+This application is a workout tracker that allows users to track current workouts and view them as a data set to track progress over time.
 
 ## Table of Contents
 
